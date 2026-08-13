@@ -24,6 +24,8 @@ src/
     └── java/
         ├── base/       # Test setup and teardown
         └── tests/      # Test cases
+```
+
 Configuration
 The project supports environment-based configuration using properties files.
 Example:
@@ -40,4 +42,4 @@ Page-specific locators and actions
 Common Selenium functionality
 WebDriver and environment configuration
 This structure keeps the test suite maintainable, reusable, and easy to extend as additional scenarios are added.
-```
+
