@@ -41,6 +41,7 @@ Run the test suite with:
 
 ```bash
 mvn clean test -Denv=qa
+```
 
 ## Test Automation Approach
 
