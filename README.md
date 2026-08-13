@@ -1,6 +1,6 @@
 # Selenium WebDriver Automation
 
-A Java-based Selenium WebDriver automation project demonstrating UI test automation using the Page Object Model, reusable test utilities, and environment-based configuration.
+A Java-based Selenium WebDriver automation project demonstrating maintainable UI test automation using the Page Object Model, reusable utilities, and environment-based configuration.
 
 ## Tech Stack
 
@@ -41,4 +41,15 @@ Run the test suite with:
 
 ```bash
 mvn clean test -Denv=qa
+
+## Test Automation Approach
+
+The project follows the Page Object Model (POM) to maintain a clear separation between:
+
+- **Test logic and assertions**
+- **Page-specific locators and actions**
+- **Common Selenium functionality**
+- **WebDriver and environment configuration**
+
+This structure keeps the test suite maintainable, reusable, and easy to extend as additional scenarios are added.
 
